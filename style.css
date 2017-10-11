@@ -1,0 +1,115 @@
+#centered{
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#centereda{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#imga{
+  border-radius: 1000%;
+  width: 200px;
+  height: 200px;
+  background-color:lime;
+  margin-bottom:25px;
+}
+#centered img {
+  border-radius: 50%;
+  width: 300px;
+  height:200px;
+  background-color:lime;
+  margin-bottom:25px;
+}
+#header h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: lime;
+}
+#bio{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: lime;
+}
+#hr {
+  width: 380px;
+  height: 1px;
+  margin:auto;
+  background-color: lime;
+  margin: 15px auto;
+  color: lime;
+}
+#b{
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  transition: 20s ease all;
+  margin: 10px 0;
+  margin-top: 10p;
+  color: lime;
+}
+a {
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  transition: 20s ease all;
+  margin: 10px 0;
+  margin-top: 10p;
+  color: lime;
+}
+a:hover{
+  text-decoration: underline;
+  color: lime;
+}
+#content-wrapper{
+  display:table;
+}
+
+#content{
+  display:table-row;
+}
+
+#content>div{
+  display:table-cell
+}
+
+/*adding some extras for demo purposes*/
+#content-wrapper{
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  margin:auto;
+  transition: 20s ease all;
+}
+#nav{
+  width:50%;
+  background:black;
+  color: lime;
+  text-align: center;
+  margin:auto;
+}
+#math{
+  text-decoration: underline;
+  font-size: 24px;
+  margin:auto;
+}
+#body{
+  background:black;
+  color: lime;
+  text-align: center;
+}
