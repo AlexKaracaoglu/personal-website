@@ -23,8 +23,8 @@
 }
 #centered img {
   border-radius: 50%;
-  width: 300px;
-  height:200px;
+    height: 125px;
+    width: 125px;
   background-color:lime;
   margin-bottom:25px;
 }
