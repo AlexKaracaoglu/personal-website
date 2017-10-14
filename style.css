@@ -29,11 +29,11 @@
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
   text-transform: translateY(-100px);
 }
-#courses {
+#me {
   font-size: 8vw;
   color: black;
 }
-#courses:hover {
+#me:hover {
   color: #D35400;
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
   text-transform: translateY(-100px);
@@ -69,6 +69,18 @@
     color: #CB4335;
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transform: translateY(-10px);
+}
+.fa-linkedin-square{
+  color: black;
+}
+.fa-github{
+  color: black;
+}
+.fa-envelope{
+  color: black;
+}
+.fa-file-text{
+  color: black;
 }
 .fa-linkedin-square:hover {
     color: #0177B5;
