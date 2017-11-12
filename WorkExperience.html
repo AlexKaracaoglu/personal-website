@@ -5,16 +5,10 @@
     <title>Test</title>
   </head>
   <body>
-<<<<<<< HEAD
 
     <fb:login-button
       scope="public_profile,email"
       onlogin="checkLoginState();">
-=======
-    <fb:login-button 
-  scope="public_profile,email"
-  onlogin="checkLoginState();">
->>>>>>> 07fee397ff8e2103fa16ed7240f2f2844ce24fd9
     </fb:login-button>
 
       <script>
@@ -47,7 +41,7 @@
            console.log('NOt');
          }
          }
-        
+
 function checkLoginState() {
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
@@ -55,7 +49,7 @@ function checkLoginState() {
 }
 
       </script>
-    <fb:login-button 
+    <fb:login-button
   scope="public_profile,email"
   onlogin="checkLoginState();">
     </fb:login-button>
