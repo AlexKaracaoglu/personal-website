@@ -5,7 +5,10 @@
     <title>Test</title>
   </head>
   <body>
-
+    <fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+    </fb:login-button>
 
       <script>
       window.fbAsyncInit = function() {
@@ -37,7 +40,17 @@
            console.log('NOt');
          }
          }
-
+        
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+        
+      <fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+    </fb:login-button>
 
       </script>
   </body>
