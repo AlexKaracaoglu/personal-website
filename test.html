@@ -60,12 +60,7 @@
           });
         })
       }
-      var lat = 0.0;
-      var lon = 0.0;
       function buildProfile(user){
-        lat = user.location.latitude;
-        lon = user.location.longitude;
-
         let profile = `
           <h3>${user.name}</h3>
           <ul class="list-group">
@@ -113,16 +108,15 @@
         });
       }
       function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 0.0 , lng: 0.0},
-          zoom: 13
+          zoom: 4,
+          center: uluru
         });
-        marker.setPlace({
-          place =
-           placeId: place.place_id,
-           location: place.geometry.location
-         });
-         marker.setVisible(true);
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
       }
     </script>
     <script async defer
