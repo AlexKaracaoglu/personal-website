@@ -111,8 +111,7 @@
         });
       }
       function initMap() {
-        testAPI();
-        var uluru = {lat: lat, lng: lon};
+        var uluru = {lat: window.lat, lng: window.lon};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: uluru
