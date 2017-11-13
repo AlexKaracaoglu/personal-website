@@ -62,15 +62,13 @@
       }
 
       function buildProfile(user){
-        window.lat = user.location.latitude;
-        window.lon = user.location.longitude;
         let profile = `
           <h3>${user.name}</h3>
           <ul class="list-group">
             <li class="list-group-item">User ID: ${user.id}</li>
             <li class="list-group-item">Email: ${user.email}</li>
             <li class="list-group-item">Birthday: ${user.birthday}</li>
-            <li class="list-group-item">Location: ${user.location.name}</li>
+            <li class="list-group-item">Location: ${user.location.latitude}</li>
           </ul>
         `;
         document.getElementById('profile').innerHTML = profile;
@@ -111,7 +109,7 @@
         });
       }
       function initMap() {
-        var uluru = {lat: window.lat, lng: window.lon};
+        var uluru = {lat: 0, lng: 0};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
           center: uluru
