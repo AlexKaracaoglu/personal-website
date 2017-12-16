@@ -33,6 +33,10 @@ body{
 li{
   color: black;
 }
+h4{
+  font-style: italic;
+}
+
 h1{
  font-size: 60px;
  color: rgb(0, 92, 230);
