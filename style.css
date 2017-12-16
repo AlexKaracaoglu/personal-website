@@ -30,9 +30,17 @@ body{
    padding-bottom: 0px;
    padding-top: 15px;
 }
+li{
+  color: black;
+}
 h1{
  font-size: 60px;
- color: rgb(0, 92, 230)
+ color: rgb(0, 92, 230);
+ text-align: center;
+}
+h2{
+ text-align: center;
+ text-decoration: underline;
 }
 .btn{
  font-family: 'Raleway', sans-serif;
