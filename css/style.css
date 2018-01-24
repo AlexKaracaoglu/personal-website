@@ -206,3 +206,57 @@ hr{
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
 }
+
+.leader img:hover {
+     -webkit-transform: scale(1.02);
+     -moz-transform: scale(1.02);
+     -o-transform: scale(1.02);
+ }
+
+ .leader{
+     -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+}
+
+ .lead{
+     -webkit-transition-duration: 1.5s;
+     -moz-transition-duration: 1.5s;
+     -o-transition-duration: 1.5s;
+ }
+
+ .work img:hover {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+  }
+
+  .work{
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+ }
+
+  .workTransform{
+      -webkit-transition-duration: 1.5s;
+      -moz-transition-duration: 1.5s;
+      -o-transition-duration: 1.5s;
+  }
+
+  .education img:hover {
+       -webkit-transform: scale(1.05);
+       -moz-transform: scale(1.05);
+       -o-transform: scale(1.05);
+   }
+
+   .education{
+       -webkit-transform: scale(1);
+       -moz-transform: scale(1);
+       -o-transform: scale(1);
+  }
+
+   .educationTransform{
+       -webkit-transition-duration: 1.5s;
+       -moz-transition-duration: 1.5s;
+       -o-transition-duration: 1.5s;
+   }
