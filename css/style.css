@@ -260,3 +260,7 @@ hr{
        -moz-transition-duration: 1.5s;
        -o-transition-duration: 1.5s;
    }
+   
+   .card{
+     border-color: white;
+   }
